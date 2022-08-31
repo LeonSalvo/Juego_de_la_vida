@@ -11,11 +11,11 @@ namespace PII_Game_Of_Life
             int height = tablero.Board.GetLength(1);  //variabe que representa altura del tablero
             Console.Clear();
             StringBuilder s = new StringBuilder();
-            for (int y = 0; y<height;y++)
+            for (int y = 0; y < height; y++)
             {
-                for (int x = 0; x<width; x++)
+                for (int x = 0; x < width; x++)
                 {
-                    if(b[x,y])
+                    if (b[x, y])
                     {
                         s.Append("|X|");
                     }
@@ -30,3 +30,5 @@ namespace PII_Game_Of_Life
         }
     }
 }
+
+/*La clase cumple con el principio SRP ya que cumple con un unica función (imprime el tablero en la consola)*/

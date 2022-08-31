@@ -16,3 +16,5 @@ namespace PII_Game_Of_Life
         }
     }
 }
+
+/*El program es el experto de información de nuestro proyecto ya que es el que llama y dirige a todas las clases */

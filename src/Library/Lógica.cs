@@ -57,3 +57,5 @@ namespace PII_Game_Of_Life
         }
     }
 }
+
+/*La clase cumple con el principio SRP ya que cumple con un unica función (contiene la lógica del juego, es decir, los pasos a seguir en cada tablero)*/
